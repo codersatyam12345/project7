@@ -1,0 +1,151 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+.main{
+    height:100%;
+    width:100%;
+     background-color:#0D1117;
+}
+.nav{
+    height:40px;
+    width:100%;
+    display:flex;
+    position:relative;
+    align-items:center;
+    justify-content: end;
+    gap:1vw;
+    background-color:#0D1117;
+    color:#fff;
+    
+
+}
+.nav h4{
+    padding:0vw 1vw;
+}
+.nav i{
+    display:none;
+}
+.content{
+    height:calc(100% - 65px);
+    width:100%;
+
+}
+.part1{
+     height:40%;
+    width:100%;
+    
+}
+.part1 h3{
+    position:relative;
+    top:5vw;
+    left:30vw;
+    color:#fff;
+}
+.part1 h1{
+    position: relative;
+    top:5vw;
+    left:28vw;
+    color:#fff;
+}
+.part1 h4{
+    position:relative;
+    top:5vw;
+    left:28vw;
+    padding:0.3vw 0.3vw;
+    color:#fff;
+}
+.first{
+    height:20px;
+    width:20px;
+    position:relative;
+    top:7vw;
+    left:28vw;
+}
+.second{
+    height:220px;
+    width:220px;
+    position:relative;
+    right:-55vw;
+    top:-8.2vw;
+
+}
+.part2{
+    height:60%;
+    width:100%;
+    
+}
+.part2 h4{
+    position: relative;
+     left:45vw;
+     color:#fff;
+}
+
+.top{
+   position:relative;
+   padding:0.1vw 0.1vw;
+   gap:0.5vw;
+}
+.top img{
+    height:150px;
+    width:150px;
+    position:relative;
+    left:34vw;
+    
+    
+}
+.bottom{
+    position:relative;
+
+}
+.bottom img{
+    height:150px;
+    width:150px;
+    position:relative;
+    left:34vw;
+}
+.footer{
+    height:25px;
+    width:100%;
+    background-color:#0D1117;
+    display:flex;
+    align-items: center;
+    justify-content: end;
+    gap:1.2vw;
+    color:#fff;
+
+
+}
+.footer img{
+    height:20px;
+    width:20px;
+
+}
+@media(max-width:600px){
+    .nav{
+        padding:0 2vw;
+        height:35px;
+        width:100%;
+    }
+    .nav h4{
+        display:none;
+    }
+    .nav i{
+        display:block;
+        position:relative;
+        left:-415px;
+        height:10px;
+    }
+    .content{
+        flex-direction: column;
+        height:calc(100% - 10px);
+    }
+    
+
+}
